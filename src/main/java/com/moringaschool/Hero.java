@@ -8,7 +8,7 @@ public class Hero {
     private Integer age;
     private String specialPower;
     private String weakness;
-    private static List<Hero> instances = new ArrayList<Hero>();
+    private static ArrayList<Hero> instances = new ArrayList<>();
 
     public Hero(String name, int age, String specialPower, String weakness) {
         this.name = name;
@@ -18,7 +18,7 @@ public class Hero {
         instances.add(this);
     }
 
-    public static List<Hero> getAll() {
+    public static ArrayList<Hero> getAll() {
         return instances;
     }
 }
