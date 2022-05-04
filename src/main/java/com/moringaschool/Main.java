@@ -8,8 +8,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Main {
-
+    static int getHerokuAssignedPort() {
+        ProcessBuilder processBuilder = new ProcessBuilder();
+        if (processBuilder.environment().get("PORT") != null) {
+            return Integer.parseInt(processBuilder.environment().get("PORT"));
+        }
+        return 4567; //return default port if heroku-port isn't set (i.e. on localhost)
+    }
     public static void main(String[] args) {
+        port(getHerokuAssignedPort());
         staticFileLocation("/public");
         get("/", (request, response) -> {
             Hero hero1 = new Hero("Superman", 99, "Flying", "Not invincible", new Squad(1, "Avengers", 1));
