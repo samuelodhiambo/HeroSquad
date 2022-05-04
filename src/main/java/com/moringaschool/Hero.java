@@ -8,13 +8,15 @@ public class Hero {
     private Integer age;
     private String specialPower;
     private String weakness;
+    Squad squad;
     private static ArrayList<Hero> instances = new ArrayList<>();
 
-    public Hero(String name, int age, String specialPower, String weakness) {
+    public Hero(String name, int age, String specialPower, String weakness, Squad squad) {
         this.name = name;
         this.age = age;
         this.specialPower = specialPower;
         this.weakness = weakness;
+        this.squad = squad;
         instances.add(this);
     }
 

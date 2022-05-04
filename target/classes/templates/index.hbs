@@ -1,4 +1,4 @@
-{{#partial "title"}}Add Hero{{/partial}}
+{{#partial "title"}}Home{{/partial}}
 
 {{#partial "content"}}
     <nav class="navbar navbar-dark navbar-expand-md bg-dark py-3">
@@ -15,31 +15,17 @@
             </div>
         </div>
     </nav>
-    <section class="position-relative py-4 py-xl-5">
-        <div class="container position-relative">
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-8 col-lg-6 col-xl-5 col-xxl-4">
-                    <div class="card mb-5">
-                        <div class="card-body p-sm-5">
-                            <h2 class="text-center mb-4">Add Your Favorite Hero</h2>
-                            <form method="post" action="/add">
-                                <div class="mb-3"><input class="form-control" type="text" id="name-2" name="name" placeholder="Name"></div>
-                                <div class="mb-3"><input class="form-control" type="number" id="name-1" name="age" placeholder="Age"></div>
-                                <div class="mb-3"><input class="form-control" type="text" id="name-4" name="power" placeholder="Special Power"></div>
-                                <div class="mb-3"><input class="form-control" type="text" id="name-3" name="weakness" placeholder="Weakness"></div>
-                                <div class="mb-3">
-                                    <select class="form-control" name="squad">
-                                        <option value="1">Avengers</option>
-                                    </select>
-                                </div>
-                                <div><button class="btn btn-primary d-block w-100" type="submit">Add</button></div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="container p-5 text-light" style="background: url(&quot;assets/img/cropped.jpg&quot;) top left / cover no-repeat;height: 50vh;">
+        <div class="text-center middle-vertical" style="position: relative;top: 50%;left: 50%;transform: translate(-50%);">
+            <h1 class="fs-1">Welcome to Hero Squad</h1>
+            <p class="fs-6">The home for all your amazing heroes...</p>
         </div>
-    </section>
+    </div>
+    {{#if heroes}}
+    {{#each heroes}}
+        <p>{{ name }}</p>
+    {{/each}}
+    {{/if}}
 {{/partial}}
 
-{{> layout.hbs}}
+{{>layout.hbs}}
