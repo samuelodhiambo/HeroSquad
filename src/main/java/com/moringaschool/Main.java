@@ -11,7 +11,16 @@ public class Main {
     public static void main(String[] args) {
         staticFileLocation("/public");
         get("/", (request, response) -> {
-            return new ModelAndView(new HashMap(), "index.hbs");
+            Hero hero1 = new Hero("Superman", 99, "Flying", "Not invincible");
+            Hero hero2 = new Hero("Batman", 80, "Can't see", "Allergic to light");
+
+            Map<String, Object> model = new HashMap<>();
+
+            request.session().attribute("heroes", Hero.getAll());
+
+            model.put("heroes", request.session().attribute("heroes"));
+
+            return new ModelAndView(model, "index.hbs");
         }, new HandlebarsTemplateEngine());
 
         get("/form", (request, response) -> {
