@@ -7,11 +7,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class HeroTest {
 
-    @After
-    public void tearDown() {
-//        Hero.clearAllPosts(); //clear out all the posts before each test.
-    }
-
     @Test
     public void AllHeroesAreCorrectlyReturned_true() {
         Hero hero = new Hero("John", 22, "Very Strong", "cant run");
