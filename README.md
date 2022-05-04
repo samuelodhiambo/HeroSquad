@@ -20,6 +20,9 @@
 * Gradle
 * Handlebars
 
+## Live Site
+[Hero Squad](https://samian-herosquad.herokuapp.com/)
+
 ## LICENCE
 [MIT License](LICENSE)
 
