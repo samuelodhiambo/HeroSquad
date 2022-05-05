@@ -21,11 +21,10 @@
             <p class="fs-6">The home for all your amazing heroes...</p>
         </div>
     </div>
-    {{#if heroes}}
     {{#each heroes}}
-        <p>{{ name }}</p>
+        <p class="text-light">{{name}}</p>
     {{/each}}
-    {{/if}}
+
 {{/partial}}
 
 {{>layout.hbs}}
