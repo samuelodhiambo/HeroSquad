@@ -14,10 +14,22 @@ public class Squad {
         this.maxSize = maxSize;
         this.name = name;
         this.fightCourse = this.course[course];
-        instances.add(this);
+        this.instances.add(this);
     }
 
     public static ArrayList<Squad> getAll() {
         return instances;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getMaxSize() {
+        return maxSize;
+    }
+
+    public String getFightCourse() {
+        return fightCourse;
     }
 }
