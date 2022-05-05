@@ -8,7 +8,7 @@ public class Hero {
     private Integer age;
     private String specialPower;
     private String weakness;
-    Squad squad;
+    private Squad squad;
     private static ArrayList<Hero> instances = new ArrayList<>();
 
     public Hero(String name, int age, String specialPower, String weakness, Squad squad) {
@@ -17,10 +17,30 @@ public class Hero {
         this.specialPower = specialPower;
         this.weakness = weakness;
         this.squad = squad;
-        instances.add(this);
+        this.instances.add(this);
     }
 
-    public static ArrayList<Hero> getAll() {
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getSpecialPower() {
+        return specialPower;
+    }
+
+    public String getWeakness() {
+        return weakness;
+    }
+
+    public Squad getSquad() {
+        return squad;
+    }
+
+    public static ArrayList<Hero> getInstances() {
         return instances;
     }
 }
