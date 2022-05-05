@@ -5,8 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47979c87-7a07-4b66-ab90-eaf8c4e239d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/assets/css/Color-Contact-List.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moringaschool/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/moringaschool/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moringaschool/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/moringaschool/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moringaschool/Squad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/moringaschool/Squad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HeroSquad-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/HeroSquad-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HeroSquad-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/HeroSquad-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moringaschool/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moringaschool/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moringaschool/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moringaschool/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moringaschool/Squad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moringaschool/Squad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/layout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/HeroSquad-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/app/target/HeroSquad-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/HeroSquad-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/app/target/HeroSquad-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/com/moringaschool/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/com/moringaschool/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/com/moringaschool/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/com/moringaschool/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/com/moringaschool/Squad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/com/moringaschool/Squad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/mvn-dependency-list.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/app/target/mvn-dependency-list.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/build.tgz" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/build.tgz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvn-dependency-list.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvn-dependency-list.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +53,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/samian/Documents/HeroSquad",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "last_opened_file_path": "/home/samian/Documents/HeroSquad/src/main/resources/public/assets/css",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.kotlinCompiler"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/public/assets/css" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -44,7 +72,9 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.moringaschool.Main" />
       <module name="HeroSquad" />
       <extension name="coverage">
@@ -121,6 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.HeroTest.AllHeroesAreCorrectlyReturned_true" />
+      <item itemvalue="JUnit.HeroTest.AllHeroesContainsAllHeroes_true" />
+      <item itemvalue="JUnit.SquadTest.AllHSquadsContainsAllSquads_true" />
+      <item itemvalue="JUnit.SquadTest.AllSquadsAreCorrectlyReturned_true" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />

@@ -1,7 +1,6 @@
 
 The following files have been resolved:
    com.github.jknack:handlebars-guava-cache:jar:4.0.6:compile
-   com.sparkjava:spark-template-handlebars:jar:2.5.5:compile
    org.eclipse.jetty:jetty-io:jar:9.0.2.v20130417:compile
    com.github.jknack:handlebars:jar:4.0.6:compile
    org.eclipse.jetty:jetty-security:jar:9.0.2.v20130417:compile
@@ -16,6 +15,7 @@ The following files have been resolved:
    org.eclipse.jetty:jetty-webapp:jar:9.0.2.v20130417:compile
    org.mozilla:rhino:jar:1.7R4:compile
    org.sql2o:sql2o:jar:1.5.4:compile
+   com.sparkjava:spark-template-handlebars:jar:2.7.1:compile
    org.eclipse.jetty:jetty-servlet:jar:9.0.2.v20130417:compile
    org.eclipse.jetty:jetty-server:jar:9.0.2.v20130417:compile
    org.antlr:antlr4-runtime:jar:4.5.1-1:compile
