@@ -15,17 +15,36 @@
             </div>
         </div>
     </nav>
-    <div class="container p-5 text-light" style="background: url(&quot;assets/img/cropped.jpg&quot;) top left / cover no-repeat;height: 50vh;">
+    <div class="container p-5 text-light border" style="background: url(&quot;assets/img/cropped.jpg&quot;) top left / cover no-repeat;height: 50vh;">
         <div class="text-center middle-vertical" style="position: relative;top: 50%;left: 50%;transform: translate(-50%);">
             <h1 class="fs-1">Welcome to Hero Squad</h1>
             <p class="fs-6">The home for all your amazing heroes...</p>
         </div>
     </div>
-    {{#if heroes}}
-    {{#each heroes}}
-        <p>{{ name }}</p>
-    {{/each}}
-    {{/if}}
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css">
+
+    <div class="container mt-3 border">
+        <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-4">
+            {{#each heroes}}
+            <div class="col">
+                <div class="card radius-15 bg-primary">
+                    <div class="card-body text-center">
+                        <div class="p-4 radius-15">
+                            <img src="https://media.istockphoto.com/vectors/vector-superhero-silhouette-with-sunburst-effect-background-vector-id1162040662?k=20&m=1162040662&s=612x612&w=0&h=pjtxRm3sCJvvcPatDs4cNpU9svjaGnrcGbl8v62MeRQ=" width="110" height="110" class="rounded-circle shadow p-1 bg-white" alt="">
+                            <h3 class="mb-0 mt-5 text-dark">{{name}}</h3>
+                            <p class="mb-3 text-white">Special Power - {{specialPower}}</p>
+                            <p class="mb-3 text-muted">Weakness - {{weakness}}</p>
+                            <div class="d-grid"> <a href="#" class="btn btn-white radius-15">{{squad.name}}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+
 {{/partial}}
 
 {{>layout.hbs}}
